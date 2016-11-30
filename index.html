@@ -14,8 +14,7 @@
     if (/localhost/.exec(window.location)) {
       annyangScript.src = "//localhost:8443/dist/annyang.js"
     } else {
-      annyangScript.src = "javascript/annyang.min.js"
-    }
+      annyangScript.src = "//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"    }
     document.write(annyangScript.outerHTML)
   </script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
