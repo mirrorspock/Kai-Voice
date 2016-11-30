@@ -14,7 +14,7 @@
     if (/localhost/.exec(window.location)) {
       annyangScript.src = "//localhost:8443/dist/annyang.js"
     } else {
-      annyangScript.src = "//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"    }
+      annyangScript.src = "vendor/js/annyang.min.js"    }
     document.write(annyangScript.outerHTML)
   </script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -75,7 +75,7 @@
     var commands = {
       'hello (there)':        hello,
       'show me *search':      showFlickr,
-      'show :type dasboard':    showDASH,
+      'show :type dashboard':    showDASH,
       'let\'s get started':   getStarted,
     };
 
